@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistemes de Representació Avançada_2DG</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <style type="text/css">
+        /*reset*/
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        body {
+            font-size: 18px;
+            font-family: 'Lato';
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            color: #cb997e;
+            background-color: #ffffff;
+            background-image: url(pattern.png);
+            background-size: contain;
+            background-position: -40px -100px;
+            height: 100vh;
+            width: 100%;
+            padding: 0 36px 0 36px;
+            font-size: 2vw;
+
+        }
+
+        h1 {
+            font-size: 8vw;
+            line-height: -20vw;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 4vw;
+            font-weight: 500;
+        }
+
+        h3 {
+            font-size: 2vw;
+            font-weight: 500;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            background-color: #cb997e;
+            width: 100%;
+            height: 140px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        nav a {
+            color: #ffffff;
+            font-size: 1.4em;
+        }
+
+        main {
+            background-color: white;
+            padding: 3em 2em 2.5em 2em;
+
+        }
+
+        section {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding: 1em 1em 0 1em;
+            background-color: antiquewhite;
+            margin: 0 0 1.5em 0;
+        }
+
+        section figure {
+            height: 224px;
+            background-color: antiquewhite;
+
+        }
+
+        section figure img {
+            height: 224px;
+            object-fit: cover;
+            object-position: bottom;
+        }
+
+        section figcaption {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 3em;
+            background-color: antiquewhite;
+        }
+
+        footer {
+            display: flex;
+            height: 300px;
+            background: #DDBEA9;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            padding: 2em 2em 1em 2em;
+        }
+        footer a{
+            color: white;
+        }
+        .xxss{
+            display: flex;
+            width: 100%; 
+            justify-content: space-between;
+            
+        }
+        
+
+
+        /* Extra small devices (phones, 600px and down) */
+        @media only screen and (max-width: 600px) {
+            body {
+                background: white;
+            }
+        }
+
+        /* Small devices (portrait tablets and large phones, 600px and up) */
+        @media only screen and (max-width: 600px) {
+            main {
+                background: white;
+            }
+        }
+
+        /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (min-width: 600px) {
+            header {
+               
+            }
+            main {
+                background-color: white;
+            }
+            h1 {
+                font-size: 8vw;
+                line-height: 8vw;
+                width: 100%;
+                padding: 0 25% 0 25%;
+            }
+            h2{
+                font-size:6vw;
+                padding: 0 25% 0 25%;
+                 
+            }
+            h3{
+                font-size: 4vw;
+                padding: 0 25% 0 25%;
+            }
+            nav{
+                position: relative;
+                justify-content: center;
+            }
+            nav a{
+                padding: 0 2em;
+            }
+            .grid-container{
+                padding: 0 20%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            section{
+                width: 30%;
+                margin: 1.5em 1em 1em 1em;
+                
+            }
+            footer{
+                flex-direction: row;
+            }
+            .xxss{
+                width: 75%;
+                justify-content: space-between;
+            }
+            .email{
+                display: flex;
+                width: 25%;
+                justify-content: flex-end;
+            }
+        }
+
+        /* Extra large devices (large laptops and desktops, 1200px and up) */
+        @media only screen and (min-width: 1200px) {
+            body {
+                background: white;
+            }
+            h1 br{
+                display: none;
+            }
+            h1{
+                font-size:5vw;
+                padding: 0 16.6%;
+                background:antiquewhite;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>-<br>Sistemes de <br> representació<br> avançada<br>-</h1>
+        <h2>EASDAlcoi - 2n Disseny Gràfic</h2>
+        <h3>Laura Riaza</h3>
+    </header>
+    <nav>
+        <a href="#">projectes</a>
+        <a href="#">contacte</a>
+    </nav>
+    <main>
+       <div class="grid-container">
+        <section>
+            <figure>
+                <img src="img/llocweb.png" alt="llocweb">
+            </figure>
+            <figcaption>
+                <h4>p0_llocweb</h4>
+            </figcaption>
+        </section>
+        <section>
+            <figure>
+                <img src="img/biografia.png" alt="llocweb">
+            </figure>
+            <figcaption>
+                <h4>p1_biografía</h4>
+            </figcaption>
+        </section>
+        <section>
+            <figure>
+                <img src="img/app.png" alt="llocweb">
+            </figure>
+            <figcaption>
+                <h4>p2_aplicació</h4>
+            </figcaption>
+        </section>
+        </div>
+    </main>
+    <footer>
+        <div class="xxss">
+            <a href="https://www.redbubble.com/es/people/laura-riaza/shop?asc=u">redbubble</a>
+            <a href="https://www.instagram.com/laurariazap/">instagram</a>
+            <a href="mailto:riazapl@easdalcoi.es">e-mail</a>
+        </div>
+       
+    </footer>
+</body>
+
+</html>
